@@ -1,0 +1,47 @@
+:root {
+    --b1: #F5F2E4;
+    --b2: #EDE8D0;
+    --d: #1A1A14;
+    --y: #D4A017;
+    --o: #C86A00;
+    --r: #C0392B;
+    --gr: #6B7260;
+    --g: #4A7C3F;
+    --gl: #6BAD5E;
+    --gd: #2D4D26;
+    --gm: #C8E6C0;
+    --gb: #3E6B30;
+    --rv: #8A7A30;
+    --cr: #FFF8E0;
+    --pp: #9A9080;
+
+}
+
+.ft {
+    background:var(--gd);
+    border-bottom:3px solid var(--d);
+    padding:9px 0;
+    overflow:hidden;
+    white-space:nowrap;
+    position:sticky;
+    top:0;
+    z-index:200;
+}
+
+.tin {
+    display:inline-flex;
+    animation:tickerScroll 40s linear infinite;
+}
+
+.ti {
+    font-family:'Inter', sans-serif;
+    font-weight:900;
+    font-size:.85rem;
+    color:var(--gm);
+    display:inline-flex;
+    align-items:center;
+    padding:0 30px;
+}
+.ts { color:var(--g); margin:0 6px; font-size:1.1rem; }
+.ti strong { color:var(--y); }
+@keyframes tickerScroll { from{transform:translateX(0)} to {transform:translateX(-50%)}}
