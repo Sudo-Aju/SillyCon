@@ -1,6 +1,6 @@
-  # SillyCon
-
   <div align="center">
+
+  # SillyCon
   
   ![logo](https://github.com/Sudo-Aju/SillyCon/blob/main/logo.png)
 
